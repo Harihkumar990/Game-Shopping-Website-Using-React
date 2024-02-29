@@ -1,0 +1,36 @@
+.ul{
+    display: flex;
+    gap:2rem;
+    position: relative;
+    background-color:#FF1D58;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius:1rem;
+    width:99vw;
+    height: 2rem;
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left:0.4rem;
+    text-decoration: none;
+    
+
+    & li{
+        list-style: none;
+        cursor: pointer;
+    }
+
+   
+}
+
+li:hover{
+    color: red;
+    transition: all 0.2s ease-in-out;
+}
+
+.navlink{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    background-color: white;
+}

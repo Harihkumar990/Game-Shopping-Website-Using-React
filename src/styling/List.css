@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+.image-container {
+  width: 100%;
+  border: 1px solid white;
+  position: relative;
+  top: 2.3rem;
+}
+.image-container img {
+  width: 100%;
+  background-size: cover;
+  height: 20rem;
+  filter: blur(1px);
+  position: absolute;
+  border-radius: 1rem;
+  z-index: -1;
+}
+.image-container .sections {
+  position: relative;
+  border: 1px solid white;
+  justify-content: space-between;
+  opacity: 2;
+  height: 20rem;
+  z-index: 1;
+}
+.image-container .sections .gamebox {
+  width: 10rem;
+  height: 15rem;
+}
+.image-container .sections .gamebox img {
+  width: 12rem;
+  height: 15rem;
+  filter: blur(0);
+  opacity: 0.9;
+  position: relative;
+  right: 9rem;
+  top: 1rem;
+}
+.image-container .sections .nameprice {
+  background-color: rgba(57, 152, 196, 0.5);
+  position: relative;
+  font-family: "Anta", sans-serif;
+  box-shadow: 0.2rem 0.2rem white;
+  border-radius: 0.5rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 14rem;
+  left: 5rem;
+}
+.image-container .sections .nameprice .orderbtn {
+  justify-content: space-between;
+  align-items: center;
+}
+.image-container .sections .nameprice .small {
+  font-size: 1rem;
+  text-align: end;
+  color: black;
+}
+.image-container .sections .nameprice .description {
+  position: relative;
+  top: 2rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.main {
+  position: relative;
+  top: 3rem;
+  left: 1.3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 18rem);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+}
+
+.cart {
+  border: 2px solid white;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.2rem 0.2rem white;
+}
+.cart .imgcont {
+  margin-top: 1rem;
+  width: 18rem;
+  text-align: center;
+  height: 22rem;
+}
+.cart .imgcont img {
+  border-radius: 2rem;
+  width: 15rem;
+  height: 20rem;
+}
+.cart .descrip {
+  filter: brightness(10);
+  text-align: center;
+}
+.cart .descrip .price {
+  display: flex;
+  align-items: center;
+  width: 9rem;
+  justify-content: space-between;
+  position: relative;
+  left: 2rem;
+}
+.cart .descrip .price small {
+  text-decoration: line-through;
+}
+.cart .descrip .price .span {
+  font-size: 1.3rem;
+}/*# sourceMappingURL=List.css.map */

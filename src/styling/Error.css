@@ -1,0 +1,12 @@
+.erropage {
+  width: 100vw;
+  height: 90vh;
+  border: 5px solid white;
+}
+.erropage img {
+  position: relative;
+  top: 2rem;
+  left: 1rem;
+  width: 97vw;
+  height: 33rem;
+}/*# sourceMappingURL=Error.css.map */

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+.cart-container {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+}
+.cart-container .order {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-container .order .totalprice {
+  width: 9rem;
+  margin: 0rem 0rem 0rem 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.cart-container .order button {
+  border-radius: 0.5rem;
+  background-color: lightgoldenrodyellow;
+}
+
+.name-container {
+  display: flex;
+  padding: 1rem 1rem 0rem 1rem;
+  justify-content: space-between;
+  width: 53rem;
+  position: relative;
+  left: 2.3rem;
+}
+.name-container .quan {
+  position: relative;
+  left: 6rem;
+}
+.name-container .rem {
+  position: relative;
+  left: 8rem;
+}
+.name-container .pri {
+  position: relative;
+  left: 1rem;
+}
+
+.sub-cart-container {
+  border-top: 2px solid black;
+  border-bottom: 2px dotted black;
+  padding: 1rem 1rem 1rem 0rem;
+  margin: 0.3rem;
+}
+.sub-cart-container .description-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-cart-container .description-container .item-description {
+  display: flex;
+  flex-direction: column;
+}
+.sub-cart-container .description-container img {
+  width: 13rem;
+  height: 10rem;
+}
+.sub-cart-container .description-container .quantity-container {
+  width: 13rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  align-items: center;
+}
+.sub-cart-container .description-container .quantity-container .increment-and-decrement {
+  border-left: 1px dotted black;
+  padding: 0rem 0rem 0rem 0.3rem;
+  width: 8rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.sub-cart-container .description-container .quantity-container .increment-and-decrement button {
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+}
+.sub-cart-container .description-container .price-container {
+  width: 11.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.sub-cart-container .description-container .price-container button {
+  border-radius: 0.5rem;
+  font-weight: 800;
+}/*# sourceMappingURL=cart.css.map */

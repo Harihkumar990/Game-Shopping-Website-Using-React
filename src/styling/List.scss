@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+.image-container{
+    width:100%;
+    border: 1px solid white;
+    
+    position: relative;
+    top:2.3rem;
+    
+
+    & img{
+        width:100% ;
+        background-size: cover;
+        height:20rem;
+        filter: blur(1px);
+        position: absolute;
+        border-radius: 1rem;
+        z-index: -1;
+        
+
+    }
+    & .sections{
+        position:relative;
+        border: 1px solid white;
+        justify-content: space-between;
+        
+        opacity: 2;
+        height: 20rem;
+        z-index: 1;
+        
+        & .gamebox{
+            width:10rem;
+            height: 15rem;
+            & img{
+                width:12rem;
+                height: 15rem;
+                filter: blur(0);
+                opacity: 0.9;
+                position: relative;
+                right:9rem;
+                top:1rem;
+
+                
+            }
+
+        }
+        & .nameprice{
+            background-color:rgba(57, 152, 196, 0.5);
+            position: relative;
+            font-family: "Anta", sans-serif;
+            box-shadow: 0.2rem 0.2rem white;
+            border-radius: 0.5rem;
+            width:fit-content;
+            height: 14rem;
+            left:5rem;
+
+            & .orderbtn{
+                justify-content: space-between;
+                align-items: center;
+            }
+    
+
+            & .small{
+                font-size:1rem;
+                
+                text-align: end;
+                color: black;
+                
+            }
+            & .description{
+                position: relative;
+                top:2rem;
+                color: white;
+                font-size:1.2rem;
+                
+            }
+        }
+
+    }
+
+}
+
+.main{
+    position: relative;
+    
+    top:3rem;
+    left:1.3rem;
+    display: grid;
+    grid-template-columns: repeat(4,18rem);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+}
+.cart{
+    
+    border: 2px solid white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.2rem 0.2rem white;
+    & .imgcont{
+        margin-top: 1rem;
+        width:18rem;
+        text-align: center;
+        height: 22rem;
+        & img{
+            border-radius: 2rem;
+            width: 15rem;
+            height: 20rem;
+
+        }
+    }
+
+    & .descrip{
+    
+        filter: brightness(10);
+        text-align: center;
+
+        & .price{
+            display: flex;
+            align-items: center;
+            width:9rem;
+            justify-content: space-between;
+            position: relative;
+            left:2rem;
+            small{
+                text-decoration: line-through;
+                
+            }
+            & .span{
+                font-size: 1.3rem;
+            }
+        }
+    }
+}

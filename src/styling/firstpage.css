@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Micro+5&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+.box {
+  background-image: url("../../public/content/wallpaperflare.com_wallpaper (1).jpg");
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-between;
+  -o-border-image: none;
+     border-image: none;
+  border-radius: 0.5rem;
+  height: 85vh;
+  position: relative;
+  top: 2rem;
+  opacity: 50px;
+}
+.box .quotes {
+  width: 30rem;
+  height: 30rem;
+  margin: 1rem 1rem 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.box .quotes #txt1:nth-child(1) {
+  color: darkcyan;
+  font-size: 4rem;
+  margin-left: 2rem;
+}
+.box .quotes #txt1:nth-child(2) {
+  color: black;
+  font-weight: bolder;
+  margin-top: 2rem;
+}
+.box .quotes .txt3 {
+  color: yellow;
+  margin-left: 6rem;
+  margin-top: 3rem;
+}
+.box .quotes .txt4 {
+  color: white;
+  margin-top: 3.2rem;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
+.labelinput {
+  height: 5rem;
+  width: 42rem;
+  margin: 0rem 1rem 0rem 0rem;
+  font-family: "Kode Mono", monospace;
+  background-color: rgba(87, 173, 253, 0.3);
+  border-radius: 0.5rem;
+}
+.labelinput label {
+  font-weight: 900;
+}
+.labelinput input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid red;
+  font-weight: 900;
+}
+.labelinput input:focus {
+  outline: none;
+}
+.labelinput button {
+  margin-left: 1rem;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  border-color: red;
+}
+
+.email::-moz-placeholder {
+  color: black;
+  position: relative;
+  left: 3rem;
+  font-weight: 900;
+}
+
+.email::placeholder {
+  color: black;
+  position: relative;
+  left: 3rem;
+  font-weight: 900;
+}
+
+.password::-moz-placeholder {
+  color: black;
+  position: relative;
+  left: 3rem;
+  font-weight: 900;
+}
+
+.password::placeholder {
+  color: black;
+  position: relative;
+  left: 3rem;
+  font-weight: 900;
+}
+
+.signup {
+  position: relative;
+  height: 15rem;
+  border-radius: 0.5rem;
+  background-color: rgba(87, 173, 253, 0.3);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  opacity: 0;
+  border: 1px solid black;
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.signup button {
+  position: relative;
+  top: 2rem;
+  z-index: 50;
+}
+.signup .container {
+  display: flex;
+}
+.signup .container .name {
+  color: black;
+  font-weight: 900;
+  justify-content: space-between;
+  height: 8rem;
+}
+.signup .container .inputtags {
+  justify-content: space-between;
+  height: 8rem;
+}
+.signup .container .inputtags input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  font-weight: 900;
+}
+.signup .container .inputtags input:focus {
+  outline: none;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+}
+
+.btns {
+  position: relative;
+  left: 30rem;
+  border-radius: 0.5rem;
+  border-color: #FF1D58;
+  box-shadow: 0.1rem 0.1rem;
+  gap: 2rem;
+}
+
+.place::-moz-placeholder {
+  color: black;
+}
+
+.place::placeholder {
+  color: black;
+}
+
+.user {
+  font-size: 2.4rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.span {
+  font-size: 1.2rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Kode Mono", monospace;
+}/*# sourceMappingURL=firstpage.css.map */
