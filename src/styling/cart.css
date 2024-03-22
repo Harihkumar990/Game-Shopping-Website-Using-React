@@ -2,6 +2,7 @@
 .cart-container {
   font-family: "Exo 2", sans-serif;
   font-weight: 700;
+  width: 100vw;
 }
 .cart-container .order {
   display: flex;
@@ -88,4 +89,5 @@
 .sub-cart-container .description-container .price-container button {
   border-radius: 0.5rem;
   font-weight: 800;
+  background-color: rgb(238, 75, 43);
 }/*# sourceMappingURL=cart.css.map */

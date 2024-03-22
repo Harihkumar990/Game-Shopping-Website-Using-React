@@ -3,14 +3,17 @@
 .box{
     background-image: url("../../public/content/wallpaperflare.com_wallpaper\ \(1\).jpg");
     width:100vw;
-
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
     overflow-x: hidden;
     display: flex;
     justify-content: space-between;
     
     border-image:none ;
     border-radius: 0.5rem;
-    height: 85vh;
+    height: 100vh;
     position: relative;
     top:2rem;
     opacity: 50px;

@@ -21,16 +21,7 @@ const Listitem = ({data , handleDisplay}) =>{
                 opacity:0,
                 delay:1
             })
-            tl.from(".cart",{
-                scrollTrigger:{
-                    trigger:".cart",
-                    start: "20px 65%" ,
-                    end:"-110px 40%",
-                    toggleActions:"play pause reverse"
-                    },
-                opacity:0.2
-                
-            })
+           
 
         },comp)
         return ()=>ctx.revert();

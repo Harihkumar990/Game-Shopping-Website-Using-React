@@ -60,7 +60,7 @@ const App = () => {
         <Route path = {'/'} element = {<FirstPage/>}/>
         <Route path = {'/:Action?'} element = {<Product  onChange = {handleitems} />}/>
         <Route path = {'/Error4O4'} element = {<Error/>} />
-        <Route  path="*" element = {<Error/>}  /> 
+        <Route  path={"*"} element = {<Error/>}  /> 
         
       </Routes>
     
